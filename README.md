@@ -8,6 +8,8 @@ What is random-wall?
 
 Parse a wallpaper webpage (http://www.reddit.com/r/wallpapers/) and get a url of randomly selected image. You can set ``delay_time`` to change a background-image without a new page load. If not, ``random-wall`` will only change a background-image only when a page is reloaded.
 
+See a live demo [here](http://carpedm20.github.io/randomwall/);
+
 
 Installation
 ------------
