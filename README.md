@@ -35,8 +35,9 @@ Now, attach the plugin to the text field.
 
 ```html
 <script>
-$("#random-wall").emailautocomplete({
-  delay_time: 100 // default: 0
+$("#random-wall").randomwall({
+  delay_time: 0, // default: 0
+  image_list: ['http://i.imgur.com/CiAvVQL.jpg','http://i.imgur.com/qC5Nprs.jpg'],
 });
 </script>
 ```
