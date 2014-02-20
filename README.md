@@ -15,8 +15,8 @@ Installation
 To use, download the minified library into your javascripts directory. jquery.random-wall.js is also available unminimized.
 
 
-Usage (jQuery)
------------------
+Usage
+-----
 
 Include jQuery and random-wall into your HTML.
 
@@ -36,8 +36,17 @@ Now, attach the plugin to the text field.
 ```html
 <script>
 $("#random-wall").randomwall({
-  delay_time: 0, // default: 0
-  image_list: ['http://i.imgur.com/CiAvVQL.jpg','http://i.imgur.com/qC5Nprs.jpg'],
+  delay_time: 0, // default: 0 miliseconds (optional)
+});
+</script>
+```
+
+or you can set your own image links.
+
+```html
+<script>
+$("#random-wall").randomwall({
+  image_list: ['http://i.imgur.com/CiAvVQL.jpg'] // use only these images (optional)
 });
 </script>
 ```
