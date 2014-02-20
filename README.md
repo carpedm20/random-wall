@@ -28,7 +28,7 @@ Include jQuery and random-wall into your HTML.
 You should have a div field to change a background-image.
 
 ```html
-<div id="random-wall" />
+<div id="random-wall" /> </div>
 ```
 
 Now, attach the plugin to the text field.
@@ -44,7 +44,7 @@ $("#random-wall").emailautocomplete({
 Author
 -------
 
-- Kim Tae Hoon, [blog](https://carpedm20.us.to).
+- Kim Tae Hoon, [blog](http://carpedm20.us.to).
 
 License
 -------

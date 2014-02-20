@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>random-wall</title>
+  <meta name="description" content="A jQuery plugin that randomly changes background-image of an element.">
+  <meta name="author" content="Kim Tae Hoon">
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body>
+  <h1>Random background-image changer <small>for a better UX</small></h1>
+
+  <p class="lead">
+    
+  </p>
+
+  <div id="random-wall"> </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/jquery.random-wall.js"></script>
+  <script>
+  (function($){
+    $(function() {
+      $("#random-wall").randomwall({
+        domains: ["example.com"] //add your own domains
+      });
+    });
+  }(jQuery));
+  </script>
+</body>
+</html>
