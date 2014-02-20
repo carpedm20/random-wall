@@ -1,7 +1,7 @@
 {
   "name": "random-wall",
   "version": "0.0.1",
-  "description": "A jQuery plugin that change background-image of an element",
+  "description": "A jQuery plugin that randomly changes background-image of an element",
   "keywords": [
     "random",
     "wallpaper",
