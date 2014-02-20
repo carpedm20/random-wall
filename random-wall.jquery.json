@@ -1,0 +1,26 @@
+{
+  "name": "random-wall",
+  "title": "jQuery random background-image generator",
+  "description": "A jQuery plugin that change background-image of an element",
+  "keywords": [
+    "random",
+    "wallpaper",
+    "background",
+    "image",
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Kim Tae Hoon",
+    "email": "carpedm20@gmail.com",
+    "url": "https://github.com/carpedm20",
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": " http://yzlow.mit-license.org"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}

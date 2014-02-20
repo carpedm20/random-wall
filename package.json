@@ -1,0 +1,21 @@
+{
+  "name": "random-wall",
+  "version": "0.0.1",
+  "description": "A jQuery plugin that change background-image of an element",
+  "keywords": [
+    "random",
+    "wallpaper",
+    "background",
+    "image",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carpedm20/random-wall.git"
+  },
+  "author": "Kim Tae Hoon",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
