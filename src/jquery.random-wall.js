@@ -81,16 +81,17 @@
       }
 
       var randomIndex = Math.floor(Math.random() * rand_urls.length);
-
-      field.css('background', 'url('+rand_urls[randomIndex]+') no-repeat center center fixed');
-      field.css('background-size','cover');
+      field.animate({opacity: 0}, 'slow', function() {
+        field.css('background', 'url('+rand_urls[randomIndex]+') no-repeat center center fixed').css('background-size','cover').animate({opacity: 1}, 'slow');
+      });
     },
     changeWall: function() {
       var urls = rand_urls;
 
       var randomIndex = Math.floor(Math.random() * urls.length);
-      field.css('background', 'url('+urls[randomIndex]+') no-repeat center center fixed');
-      field.css('background-size','cover');
+      field.animate({opacity: 0}, 'slow', function() {
+        field.css('background', 'url('+urls[randomIndex]+') no-repeat center center fixed').css('background-size','cover').animate({opacity: 1}, 'slow');
+      });
     },
   };
 
