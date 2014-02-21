@@ -9,10 +9,13 @@
 }
 
 #content {
-  text-align: center;
-  margin-top:24%;
-  background: transparent;
-  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -192px;
+  width: 200px;
+  height: 200px;
 }
 
 #logo {
