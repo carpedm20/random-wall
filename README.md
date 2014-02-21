@@ -48,7 +48,10 @@ or you can set your own image links.
 ```html
 <script>
 $("#random-wall").randomwall({
-  image_list: ['http://i.imgur.com/CiAvVQL.jpg'] // use only these images (optional)
+  image_list: ['http://i.imgur.com/CiAvVQL.jpg',
+               'http://i.imgur.com/qC5Nprs.jpg',
+               'http://i.imgur.com/fckzvp1.jpg',
+               'http://i.imgur.com/od4QZ8C.jpg'] // use only these images (optional)
 });
 </script>
 ```
