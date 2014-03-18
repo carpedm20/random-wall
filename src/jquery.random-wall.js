@@ -40,9 +40,10 @@
         rand_urls = this.options.image_list;
       }
 
-      if(this.options.delay_time != 0) {
+      if (this.options.delay_time != 0)
         setInterval(this.changeWall, this.options.delay_time);
-      }
+      else
+        this.changeWall();
     },
     getUrl: function(d) {
       if(mode == 'imgur')
@@ -89,9 +90,13 @@
       var urls = rand_urls;
 
       var randomIndex = Math.floor(Math.random() * urls.length);
-      field.animate({opacity: 0}, 'slow', function() {
+
+      if (this.options.delay_time != 0)
+        field.animate({opacity: 0}, 'slow', function() {
+          field.css('background', 'url('+urls[randomIndex]+') no-repeat center center fixed').css('background-size','cover').animate({opacity: 1}, 'slow');
+        });
+      else
         field.css('background', 'url('+urls[randomIndex]+') no-repeat center center fixed').css('background-size','cover').animate({opacity: 1}, 'slow');
-      });
     },
   };
 
