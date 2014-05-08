@@ -62,6 +62,12 @@ Todo
 - Add more image link sources (working on imgur).
 
 
+Screenshot
+----
+
+![alt_tag](http://3.bp.blogspot.com/-kV64pkpL0gU/U2r-iz0BXeI/AAAAAAAADws/TdHDuy0d2Vw/s1600/random-wall.png)
+
+
 Author
 -------
 
