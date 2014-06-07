@@ -1,6 +1,8 @@
 random-wall
 ===========
 
+![alt_tag](http://2.bp.blogspot.com/-YMvB0g501qw/U5LnI596o9I/AAAAAAAAEBM/2x3gbnhx1Rw/s1600/logo.png)
+
 A jQuery plugin that randomly changes background-image of an element
 
 What is random-wall?
